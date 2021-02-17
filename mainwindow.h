@@ -15,10 +15,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    auto get_pushButtonCordinates();
-signals:
-
-public slots:
 
 private:
     Ui::MainWindow *ui;

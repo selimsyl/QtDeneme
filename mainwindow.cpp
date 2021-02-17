@@ -9,10 +9,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
-auto MainWindow::get_pushButtonCordinates() {
-    return m_pushButton.pos();
-}
-
 MainWindow::~MainWindow()
 {
     delete ui;
